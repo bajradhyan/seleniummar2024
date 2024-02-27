@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-26T21:32:23 EST" name="SuiteA" finished-at="2024-02-26T21:32:29 EST" duration-ms="6128">
+    <groups>
+    </groups>
+    <test started-at="2024-02-26T21:32:23 EST" name="TestA" finished-at="2024-02-26T21:32:29 EST" duration-ms="6128">
+      <class name="suiteA.TestA2">
+        <test-method signature="testA2()[pri:0, instance:suiteA.TestA2@73e9cf30]" started-at="2024-02-26T21:32:27 EST" name="testA2" finished-at="2024-02-26T21:32:29 EST" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA2 -->
+      </class> <!-- suiteA.TestA2 -->
+      <class name="suiteA.TestA3">
+        <test-method signature="testA3()[pri:0, instance:suiteA.TestA3@272113c4]" started-at="2024-02-26T21:32:25 EST" name="testA3" finished-at="2024-02-26T21:32:27 EST" duration-ms="2026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA3 -->
+      </class> <!-- suiteA.TestA3 -->
+      <class name="suiteA.TestA1">
+        <test-method signature="testA1()[pri:0, instance:suiteA.TestA1@51e69659]" started-at="2024-02-26T21:32:23 EST" name="testA1" finished-at="2024-02-26T21:32:25 EST" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA1 -->
+      </class> <!-- suiteA.TestA1 -->
+    </test> <!-- TestA -->
+  </suite> <!-- SuiteA -->
+</testng-results>
