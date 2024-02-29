@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="14" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-07T01:18:41Z" name="Suite" finished-at="2024-02-07T01:18:42Z" duration-ms="935">
+    <groups>
+    </groups>
+    <test started-at="2024-02-07T01:18:41Z" name="Create the New Booking Test pay@online" finished-at="2024-02-07T01:18:41Z" duration-ms="349">
+      <class name="testcases.CommunicationManagement">
+        <test-method signature="checkMailCommunication(org.testng.ITestContext)[pri:0, instance:testcases.CommunicationManagement@38afe297]" started-at="2024-02-07T01:18:41Z" name="checkMailCommunication" finished-at="2024-02-07T01:18:41Z" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57af006c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMailCommunication -->
+        <test-method signature="checkMobileCommunication(org.testng.ITestContext)[pri:0, instance:testcases.CommunicationManagement@38afe297]" started-at="2024-02-07T01:18:41Z" name="checkMobileCommunication" finished-at="2024-02-07T01:18:41Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57af006c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMobileCommunication -->
+      </class> <!-- testcases.CommunicationManagement -->
+      <class name="testcases.BookingManagement">
+        <test-method signature="creatingBooking()[pri:0, instance:testcases.BookingManagement@131ef10]" started-at="2024-02-07T01:18:41Z" name="creatingBooking" finished-at="2024-02-07T01:18:41Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingBooking -->
+      </class> <!-- testcases.BookingManagement -->
+      <class name="testcases.Paymentmanagement">
+        <test-method signature="applyDicount()[pri:0, instance:testcases.Paymentmanagement@55b0dcab]" started-at="2024-02-07T01:18:41Z" name="applyDicount" finished-at="2024-02-07T01:18:41Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyDicount -->
+        <test-method signature="makePayment(java.lang.String, org.testng.ITestContext)[pri:0, instance:testcases.Paymentmanagement@55b0dcab]" started-at="2024-02-07T01:18:41Z" name="makePayment" finished-at="2024-02-07T01:18:41Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pay@online]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@57af006c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makePayment -->
+      </class> <!-- testcases.Paymentmanagement -->
+    </test> <!-- Create the New Booking Test pay@online -->
+    <test started-at="2024-02-07T01:18:42Z" name="Create the New Booking Test pay@hotel" finished-at="2024-02-07T01:18:42Z" duration-ms="31">
+      <class name="testcases.CommunicationManagement">
+        <test-method signature="checkMailCommunication(org.testng.ITestContext)[pri:0, instance:testcases.CommunicationManagement@f79e]" started-at="2024-02-07T01:18:42Z" name="checkMailCommunication" finished-at="2024-02-07T01:18:42Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f5acb9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMailCommunication -->
+        <test-method signature="checkMobileCommunication(org.testng.ITestContext)[pri:0, instance:testcases.CommunicationManagement@f79e]" started-at="2024-02-07T01:18:42Z" name="checkMobileCommunication" finished-at="2024-02-07T01:18:42Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f5acb9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMobileCommunication -->
+      </class> <!-- testcases.CommunicationManagement -->
+      <class name="testcases.BookingManagement">
+        <test-method signature="creatingBooking()[pri:0, instance:testcases.BookingManagement@8c3b9d]" started-at="2024-02-07T01:18:42Z" name="creatingBooking" finished-at="2024-02-07T01:18:42Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingBooking -->
+      </class> <!-- testcases.BookingManagement -->
+      <class name="testcases.Paymentmanagement">
+        <test-method signature="applyDicount()[pri:0, instance:testcases.Paymentmanagement@4c39bec8]" started-at="2024-02-07T01:18:42Z" name="applyDicount" finished-at="2024-02-07T01:18:42Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyDicount -->
+        <test-method signature="makePayment(java.lang.String, org.testng.ITestContext)[pri:0, instance:testcases.Paymentmanagement@4c39bec8]" started-at="2024-02-07T01:18:42Z" name="makePayment" finished-at="2024-02-07T01:18:42Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pay@hotel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@f5acb9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makePayment -->
+      </class> <!-- testcases.Paymentmanagement -->
+    </test> <!-- Create the New Booking Test pay@hotel -->
+  </suite> <!-- Suite -->
+</testng-results>

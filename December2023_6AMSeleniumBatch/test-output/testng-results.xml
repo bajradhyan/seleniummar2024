@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-26T21:32:23 EST" name="SuiteA" finished-at="2024-02-26T21:32:29 EST" duration-ms="6128">
+  <suite started-at="2024-02-20T01:24:40Z" name="Default suite" finished-at="2024-02-20T01:24:44Z" duration-ms="3194">
     <groups>
     </groups>
-    <test started-at="2024-02-26T21:32:23 EST" name="TestA" finished-at="2024-02-26T21:32:29 EST" duration-ms="6128">
-      <class name="suiteA.TestA2">
-        <test-method signature="testA2()[pri:0, instance:suiteA.TestA2@73e9cf30]" started-at="2024-02-26T21:32:27 EST" name="testA2" finished-at="2024-02-26T21:32:29 EST" duration-ms="2016" status="PASS">
+    <test started-at="2024-02-20T01:24:40Z" name="Default test" finished-at="2024-02-20T01:24:44Z" duration-ms="3194">
+      <class name="excelOperations.DataManagementFinalVersion">
+        <test-method signature="f(java.util.Hashtable)[pri:0, instance:excelOperations.DataManagementFinalVersion@13b13b5d]" started-at="2024-02-20T01:24:44Z" name="f" data-provider="getData" finished-at="2024-02-20T01:24:44Z" duration-ms="45" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedResult=LoginSuccuss, RunMode=Y, UserPassword=ravi2021, UserName=ravilella.2015@gmail.com, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testA2 -->
-      </class> <!-- suiteA.TestA2 -->
-      <class name="suiteA.TestA3">
-        <test-method signature="testA3()[pri:0, instance:suiteA.TestA3@272113c4]" started-at="2024-02-26T21:32:25 EST" name="testA3" finished-at="2024-02-26T21:32:27 EST" duration-ms="2026" status="PASS">
+        </test-method> <!-- f -->
+        <test-method signature="f(java.util.Hashtable)[pri:0, instance:excelOperations.DataManagementFinalVersion@13b13b5d]" started-at="2024-02-20T01:24:44Z" name="f" data-provider="getData" finished-at="2024-02-20T01:24:44Z" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedResult=LoginSuccuss, RunMode=N, UserPassword=password2, UserName=user2, Browser=firefox}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testA3 -->
-      </class> <!-- suiteA.TestA3 -->
-      <class name="suiteA.TestA1">
-        <test-method signature="testA1()[pri:0, instance:suiteA.TestA1@51e69659]" started-at="2024-02-26T21:32:23 EST" name="testA1" finished-at="2024-02-26T21:32:25 EST" duration-ms="2012" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testA1 -->
-      </class> <!-- suiteA.TestA1 -->
-    </test> <!-- TestA -->
-  </suite> <!-- SuiteA -->
+        </test-method> <!-- f -->
+      </class> <!-- excelOperations.DataManagementFinalVersion -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
